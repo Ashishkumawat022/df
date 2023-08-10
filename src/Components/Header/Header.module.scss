@@ -1,0 +1,58 @@
+.header{
+    display: flex;
+    align-items: center;
+    padding: 25px 0px;
+    
+
+
+    
+    .navSec{
+        ul{
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0;
+            padding: 0;
+            gap: 32px;
+            li{
+                a{
+                font-size: 20px;
+                cursor: pointer;
+                color: #292F36;
+                text-decoration: none;
+            }
+            }
+        }
+
+    }
+}
+
+
+
+@media (max-width:991px) {
+    .header{
+       
+        
+    
+    
+        
+        .navSec{
+            ul{
+                
+                display: block;
+                
+                li{
+                    a{
+                    font-size: 20px;
+                    line-height: 42px;
+                }
+                }
+            }
+    
+        }
+    }  
+    
+}
+
+

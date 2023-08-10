@@ -1,0 +1,138 @@
+.footer {
+  padding: 60px 0px;
+  .logoBox {
+    padding: 0px 40px;
+
+    p {
+      margin: 0;
+      padding: 20px 0px;
+      font-size: 22px;
+      color: #4d5053;
+    }
+    ul {
+      display: flex;
+      align-items: center;
+      margin: 0;
+      padding: 20px 0px;
+      gap: 40px;
+      li {
+        list-style: none;
+      }
+    }
+  }
+
+  .services {
+    padding-top: 15px;
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+
+      li {
+        line-height: 44px;
+        color: #4d5053;
+        font-size: 22px;
+        cursor: pointer;
+
+        h5 {
+          color: #292f36;
+          margin: 0;
+          font-size: 25px;
+          padding-bottom: 16px;
+        }
+      
+      }
+    }
+  }
+  .contact{
+    padding-top: 15px;
+    h5{
+      margin: 0;
+      color: #292f36;
+      font-size: 25px;
+      padding-bottom: 16px;
+    }
+    p{
+      margin: 0;
+      color: #4d5053;
+      line-height: 44px;
+      font-size: 22px;
+    }
+    span{
+      color: #4d5053;
+      line-height: 44px;
+      font-size: 22px;
+      cursor: pointer;
+    }
+  }
+
+  .copyright {
+    margin-top: 40px;
+    text-align: center;
+    padding-top: 60px;
+    border-top: 1px solid #e5e5e5;
+    color: #4d5053;
+  }
+}
+
+
+@media (max-width: 991px) {
+
+  .footer {
+ 
+    .logoBox {
+      padding: 10px !important;
+  
+     
+      ul {
+       
+        justify-content: space-around;
+        gap: 0px;
+        li{
+          font-size: 28px;
+        }
+       
+      }
+    }
+  
+    .services {
+      padding-top: 15px;
+      ul {
+       text-align: center;
+  
+        li {
+          line-height: 52px;
+         
+          font-size: 22px;
+         
+  
+          h5 {
+          
+            font-size: 32px;
+           
+            
+          }
+        
+        }
+      }
+    }
+    .contact{
+      padding-top: 15px;
+      text-align: center;
+      h5{
+       
+        font-size: 32px;
+        text-align: center;
+      }
+     
+    }
+  
+    .copyright {
+      h6{
+        font-size: 16px;
+      }
+     
+    }
+  }
+    
+}
